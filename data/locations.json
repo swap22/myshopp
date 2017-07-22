@@ -1,0 +1,29 @@
+[    
+    {
+        "id": 1,
+        "name": "Swap1",
+        "street": "333 xyz St.",
+        "city": "delhi",
+        "state": "dl",
+        "zip": "01902343",
+        "phone": "111-555-5555"
+    },
+    {
+        "id": 2,
+        "name": "Swap2",
+        "street": "sss St",
+        "city": "banglore",
+        "state": "kn",
+        "zip": "0191533",
+        "phone": "444-444-4444"
+    },
+    {
+        "id": 3,
+        "name": "Swap3",
+        "street": "bbb Ave.",
+        "city": "mumbai", 
+        "state": "MH",
+        "zip": "0191119",
+        "phone": "333-333-3333"
+    }
+]
