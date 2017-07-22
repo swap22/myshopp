@@ -3,19 +3,19 @@ var app = angular.module("electronics", ['ngRoute']); // dependency added
 app.config(['$routeProvider', function($routeProvider) {
     $routeProvider
         .when('/main', {
-            templateUrl: 'pages/main.html',
+            templateUrl: 'folder/main.html',
             controller: 'MainCtrl'
         })
         .when('/about', {
-            templateUrl: 'pages/about.html',
+            templateUrl: 'folder/about.html',
             controller: 'MainCtrl'
         })    
         .when('/services', {
-            templateUrl: 'pages/services.html',
+            templateUrl: 'folder/services.html',
             controller: 'ServicesCtrl'
         })
         .when('/contact', {
-            templateUrl: 'pages/contact.html',
+            templateUrl: 'folder/contact.html',
             controller: 'ContactCtrl'
         })
         .otherwise({ redirectTo: '/main' });
